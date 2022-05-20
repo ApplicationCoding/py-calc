@@ -17,15 +17,15 @@ def divide(x, y):
     return x / y
 
 
-print("Select operation.")
-print("1.Add")
-print("2.Subtract")
-print("3.Multiply")
-print("4.Divide")
+print("Select one from the following math operations:")
+print("Add")
+print("Subtract")
+print("Multiply")
+print("Divide")
 
 while True:
     # take input from the user
-    choice = input("Enter choice(1/2/3/4): ")
+    choice = input("Enter choice('1' = Add;'2' = Subtract;'3' = Multiply;'4' = Divide): ")
 
     # check if choice is one of the four options
     if choice in ('1', '2', '3', '4'):
@@ -51,4 +51,4 @@ while True:
           break
     
     else:
-        print("Invalid Input")
+        print("Invalid Input. Please re-enter a valid answer.")
